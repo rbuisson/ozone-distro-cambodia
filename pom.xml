@@ -20,8 +20,8 @@
     <buildDirectory>${project.build.directory}</buildDirectory>
     <assemblyClassifier/>
   </properties>
-  <dependencies>
-    <dependency>
+  <dependencies json:Array='true'>
+    <dependency json:Array='true'>
       <groupId>com.ozonehis</groupId>
       <artifactId>ozone-distro</artifactId>
       <type>zip</type>
